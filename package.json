@@ -1,0 +1,34 @@
+{
+  "name": "link-ts-jest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "link-ts-jest": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "sliv",
+    "email": "sliv.mbp@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "read-pkg-up": "^2.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}
